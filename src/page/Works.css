@@ -1,0 +1,9 @@
+.work {
+  display: flex;
+}
+
+.work .work-list {
+  background-color: blanchedalmond;
+  min-height: 80vh;
+  min-width: 40vh;
+}

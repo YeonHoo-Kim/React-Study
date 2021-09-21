@@ -1,0 +1,54 @@
+.register-area .register-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-area .register-content input {
+  min-height: 5vh;
+  min-width: 50vh;
+  margin-bottom: 5px;
+  background-color: white;
+  border: 1px solid #dededf;
+  border-radius: 5px;
+}
+
+.register-area .register-content input:focus {
+  outline: none;
+  border: 1px solid #85b7d9;
+  border-radius: 5px;
+  min-height: 5vh;
+}
+
+.register-area .register-content input:invalid {
+  background-color: #ffdddd;
+}
+.register-area .register-content button {
+  min-height: 5vh;
+  min-width: 50vh;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #4394f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-area .button-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-area .button-area button {
+  min-height: 5vh;
+  min-width: 25vh;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #4394f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.memberlist-area .member-table {
+  min-width: 50vh;
+}
