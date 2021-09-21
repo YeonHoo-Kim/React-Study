@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const PageList = (props) => {
-  const { works } = props;
+  const { contents } = props;
   return (
     <>
       <ul>
-        {works.length !== 0 &&
-          works.map((work) => (
-            <li key={`work-id-${work.id}`}>
-              <Link to={work.link}>{work.name}</Link>
+        {contents.length !== 0 &&
+          contents.map((content) => (
+            <li key={`content-id-${content.id}`}>
+              <Link to={content.link}>{content.name}</Link>
             </li>
           ))}
       </ul>

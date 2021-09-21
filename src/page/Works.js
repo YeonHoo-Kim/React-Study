@@ -6,7 +6,7 @@ import Work20210830 from '../works/20210830/index';
 import Work20210902 from '../works/20210902/index';
 import Work20210906 from '../works/20210906/index';
 
-import './Works.css';
+import './Contents.css';
 const Works = () => {
   const works = [
     {
@@ -31,11 +31,11 @@ const Works = () => {
     },
   ];
   return (
-    <div className="work">
-      <div className="work-list">
-        <PageList works={works} />
+    <div className="contents">
+      <div className="contents-list">
+        <PageList contents={works} />
       </div>
-      <div className="work-content">
+      <div className="contents-content">
         <Route path="/works/20210826" component={Work20210826} />
         <Route path="/works/20210830" component={Work20210830} />
         <Route path="/works/20210902" component={Work20210902} />

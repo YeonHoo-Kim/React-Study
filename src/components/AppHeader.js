@@ -17,8 +17,8 @@ const AppHeader = () => {
             </Link>
           </li>
           <li>
-            <Link className="button" to="/data">
-              Data
+            <Link className="button" to="/examples">
+              Examples
             </Link>
           </li>
           <li>

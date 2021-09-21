@@ -1,8 +1,8 @@
-.work {
+.contents {
   display: flex;
 }
 
-.work .work-list {
+.contents .contents-list {
   background-color: blanchedalmond;
   min-height: 80vh;
   min-width: 40vh;
