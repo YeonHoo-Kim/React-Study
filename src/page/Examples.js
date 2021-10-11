@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import PageList from '../components/PageList';
 import Example_MobX_TimerCounter from '../examples/mobx/TimerCounter';
 import Example_MobX_RunInAction from '../examples/mobx/RunInAction';
+import Example_HighOrderComponents from '../examples/hoc';
 import './Contents.css';
 
 const Examples = () => {
@@ -16,6 +17,11 @@ const Examples = () => {
       id: 2,
       link: '/examples/mobx/RunInAction',
       name: 'RunInAction',
+    },
+    {
+      id: 3,
+      link: '/examples/hoc',
+      name: 'HighOrderComponents',
     },
   ];
   return (
@@ -32,6 +38,7 @@ const Examples = () => {
           path="/examples/mobx/RunInAction"
           component={Example_MobX_RunInAction}
         />
+        <Route path="/examples/hoc" component={Example_HighOrderComponents} />
       </div>
     </div>
   );
