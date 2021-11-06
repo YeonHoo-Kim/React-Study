@@ -4,6 +4,7 @@ import PageList from '../components/PageList';
 import Example_MobX_TimerCounter from '../examples/mobx/TimerCounter';
 import Example_MobX_RunInAction from '../examples/mobx/RunInAction';
 import Example_HighOrderComponents from '../examples/hoc';
+import Example_NoobAdvancedPro from '../examples/noob-advanced-pro';
 import './Contents.css';
 
 const Examples = () => {
@@ -23,6 +24,11 @@ const Examples = () => {
       link: '/examples/hoc',
       name: 'HighOrderComponents',
     },
+    {
+      id: 4,
+      link: '/examples/noob-advanced-pro',
+      name: 'NoobAdvancedPro',
+    },
   ];
   return (
     <div className="contents">
@@ -39,6 +45,10 @@ const Examples = () => {
           component={Example_MobX_RunInAction}
         />
         <Route path="/examples/hoc" component={Example_HighOrderComponents} />
+        <Route
+          path="/examples/noob-advanced-pro"
+          component={Example_NoobAdvancedPro}
+        />
       </div>
     </div>
   );
