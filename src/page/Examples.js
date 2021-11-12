@@ -5,6 +5,7 @@ import Example_MobX_TimerCounter from '../examples/mobx/TimerCounter';
 import Example_MobX_RunInAction from '../examples/mobx/RunInAction';
 import Example_HighOrderComponents from '../examples/hoc';
 import Example_NoobAdvancedPro from '../examples/noob-advanced-pro';
+import Example_DragAndDrop from '../examples/drag-and-drop';
 import './Contents.css';
 
 const Examples = () => {
@@ -29,6 +30,11 @@ const Examples = () => {
       link: '/examples/noob-advanced-pro',
       name: 'NoobAdvancedPro',
     },
+    {
+      id: 5,
+      link: '/examples/drag-and-drop',
+      name: 'DragAndDrop',
+    },
   ];
   return (
     <div className="contents">
@@ -49,6 +55,7 @@ const Examples = () => {
           path="/examples/noob-advanced-pro"
           component={Example_NoobAdvancedPro}
         />
+        <Route path="/examples/drag-and-drop" component={Example_DragAndDrop} />
       </div>
     </div>
   );

@@ -4,6 +4,13 @@
 
 .contents .contents-list {
   background-color: blanchedalmond;
-  min-height: 80vh;
-  min-width: 40vh;
+  height: 80vh;
+  width: 20vw;
+}
+
+.contents .contents-content {
+  width: calc(100% - 20vw);
+  height: 80vh;
+  margin: 0;
+  padding: 0;
 }
