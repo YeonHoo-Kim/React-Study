@@ -6,6 +6,7 @@ import Example_MobX_RunInAction from '../examples/mobx/RunInAction';
 import Example_HighOrderComponents from '../examples/hoc';
 import Example_NoobAdvancedPro from '../examples/noob-advanced-pro';
 import Example_DragAndDrop from '../examples/drag-and-drop';
+import Example_Hooks from '../examples/hooks';
 import './Contents.css';
 
 const Examples = () => {
@@ -35,6 +36,11 @@ const Examples = () => {
       link: '/examples/drag-and-drop',
       name: 'DragAndDrop',
     },
+    {
+      id: 6,
+      link: '/examples/hooks',
+      name: 'Hooks',
+    },
   ];
   return (
     <div className="contents">
@@ -56,6 +62,7 @@ const Examples = () => {
           component={Example_NoobAdvancedPro}
         />
         <Route path="/examples/drag-and-drop" component={Example_DragAndDrop} />
+        <Route path="/examples/hooks" component={Example_Hooks} />
       </div>
     </div>
   );
