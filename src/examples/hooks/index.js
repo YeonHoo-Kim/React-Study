@@ -3,6 +3,7 @@ import UseState from './UseState';
 import UseEffect from './UseEffect';
 import UseMemo from './UseMemo';
 import UseCallback from './UseCallback';
+import UseRef from './UseRef';
 
 const Hooks = () => {
   return (
@@ -11,7 +12,8 @@ const Hooks = () => {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <UseRef />
     </div>
   );
 };
