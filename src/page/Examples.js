@@ -7,6 +7,8 @@ import Example_HighOrderComponents from '../examples/hoc';
 import Example_NoobAdvancedPro from '../examples/noob-advanced-pro';
 import Example_DragAndDrop from '../examples/drag-and-drop';
 import Example_Hooks from '../examples/hooks';
+import Example_Functions from '../examples/functions';
+import Example_Components from '../examples/components';
 import './Contents.css';
 
 const Examples = () => {
@@ -41,6 +43,16 @@ const Examples = () => {
       link: '/examples/hooks',
       name: 'Hooks',
     },
+    {
+      id: 7,
+      link: '/examples/functions',
+      name: 'Functions',
+    },
+    {
+      id: 8,
+      link: '/examples/components',
+      name: 'Components',
+    },
   ];
   return (
     <div className="contents">
@@ -63,6 +75,8 @@ const Examples = () => {
         />
         <Route path="/examples/drag-and-drop" component={Example_DragAndDrop} />
         <Route path="/examples/hooks" component={Example_Hooks} />
+        <Route path="/examples/functions" component={Example_Functions} />
+        <Route path="/examples/components" component={Example_Components} />
       </div>
     </div>
   );
